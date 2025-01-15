@@ -1,10 +1,3 @@
-//
-//  the_mageApp.swift
-//  the mage
-//
-//  Created by Enie Weiß on 13.01.25.
-//
-
 import SwiftUI
 
 @main

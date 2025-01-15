@@ -1,10 +1,3 @@
-//
-//  the_mageUITests.swift
-//  the mageUITests
-//
-//  Created by Enie Weiß on 13.01.25.
-//
-
 import XCTest
 
 final class the_mageUITests: XCTestCase {

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="IDi-YH-eAT">
+                                <rect key="frame" x="16" y="90.999999999999986" width="361" height="160.66666666666663"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell me your name and I will tell you how old you probably are" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpi-vS-LBG">
+                                        <rect key="frame" x="13" y="0.0" width="335" height="40.666666666666664"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3Df-ul-g0w">
+                                        <rect key="frame" x="0.0" y="72.666666666666657" width="361" height="88"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hcx-VR-stC">
+                                                <rect key="frame" x="0.0" y="0.0" width="361" height="32"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenCornerRadius.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jg7-AA-6g5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="32" id="Mtq-9T-FGD"/>
+                                                            <constraint firstAttribute="width" constant="32" id="gF7-z3-dyJ"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6N-7V-gzc">
+                                                        <rect key="frame" x="32" y="0.0" width="297" height="32"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    </view>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenCornerRadius.png" translatesAutoresizingMaskIntoConstraints="NO" id="aCo-mz-9Ks">
+                                                        <rect key="frame" x="329" y="0.0" width="32" height="32"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="32" id="6mJ-xB-Eb7"/>
+                                                            <constraint firstAttribute="height" constant="32" id="MuB-nj-xFa"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n27-Ae-oPb">
+                                                <rect key="frame" x="0.0" y="32" width="361" height="24"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="F6I-2B-rd7"/>
+                                                </constraints>
+                                            </view>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CWm-CS-bic">
+                                                <rect key="frame" x="0.0" y="56" width="361" height="32"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenCornerRadius.png" translatesAutoresizingMaskIntoConstraints="NO" id="03b-ea-k46">
+                                                        <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="32" id="lOI-GB-nNq"/>
+                                                            <constraint firstAttribute="width" constant="32" id="tQ8-62-38g"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Bz-7H-gaw">
+                                                        <rect key="frame" x="32" y="0.0" width="297" height="32"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    </view>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreenCornerRadius.png" translatesAutoresizingMaskIntoConstraints="NO" id="4RQ-BK-oJ4">
+                                                        <rect key="frame" x="329" y="0.0" width="32" height="32"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="32" id="Pcs-ZD-RSR"/>
+                                                            <constraint firstAttribute="height" constant="32" id="Q9u-8B-nFS"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="3Df-ul-g0w" secondAttribute="trailing" id="9F3-yn-xnX"/>
+                                    <constraint firstItem="3Df-ul-g0w" firstAttribute="leading" secondItem="IDi-YH-eAT" secondAttribute="leading" id="Nkb-fr-IXR"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WordmarkLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="XSQ-CG-sGu">
+                                <rect key="frame" x="0.0" y="347" width="393" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="183" id="q7s-Iu-QGf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <constraints>
+                            <constraint firstItem="IDi-YH-eAT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="32" id="4SA-Fa-u8i"/>
+                            <constraint firstItem="XSQ-CG-sGu" firstAttribute="centerX" secondItem="IDi-YH-eAT" secondAttribute="centerX" id="BWO-ti-jYV"/>
+                            <constraint firstItem="XSQ-CG-sGu" firstAttribute="top" secondItem="IDi-YH-eAT" secondAttribute="bottom" constant="95.333333333333371" id="OfP-dP-X8c"/>
+                            <constraint firstItem="IDi-YH-eAT" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" constant="-16" id="b2P-cJ-VzL"/>
+                            <constraint firstItem="XSQ-CG-sGu" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="lBW-RM-oCc"/>
+                            <constraint firstItem="IDi-YH-eAT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="zHK-KY-DMH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.95419847328243" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="WordmarkLogo.png" width="1024" height="256"/>
+        <image name="launchScreenCornerRadius.png" width="64" height="64"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
